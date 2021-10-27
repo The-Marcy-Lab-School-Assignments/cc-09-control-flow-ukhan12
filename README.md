@@ -11,24 +11,60 @@
 ## Code Problems
 
 1. Create a function `betweenFiveAndTen` that takes in an integer, and if that integer is between 5 and 10, it will return true or false.
+
+steps: 
+put in integer parameter 
+create if statement 
+use conditional 10>=x>=5 (x<=10 && x>=5)
+	 return 'true'
+else
+	'false'
+
 ```
 betweenFiveAndTen(5) //returns true
 betweenFiveAndTen(15) //returns false 
 ```
 
 2. Create a function `betweenTenAndThirty` that takes in an integer, and if that integer is between 10 and 30 it will return true or false.
+
+steps:
+declare integer parameter
+create if statement
+use conditional 10<=x<=30 (x<=30 && x>=10)
+	 return 'true'
+else
+	'false'
+
 ```
 betweenTenAndThirty(10) //returns false
 betweenTenAndThirty(15) //returns true
 ```
 
 3. Create a function `betweenThirtyAndFifty` that takes in an integer, and if that integer is between 30 and 50 it will return true or false.
+
+steps:
+declare integer parameter
+create if statement
+use conditional 30<=x<=90 (x<=90 && x>=30)
+	 return 'true'
+else
+	'false'
+	
 ```
 betweenThirtyAndFifty(30) //returns true
 betweenThirtyAndFifty(55) //returns false
 ```
 
 4. Create a function `betweenThirtyFiftySeventy` that takes in an integer, and if that integer is between 0 and 30 or between 50 and 70 it will return true or false.
+
+steps:
+declare integer parameter
+create if statement
+use conditional 30<=x<=90 or 50<=x<=70 (x<=90 && x>=30 || x<=70 && x>=50)
+	 return 'true'
+else
+	'false'
+
 ```
 betweenThirtyFiftySeventy(0) //returns true
 betweenThirtyFiftySeventy(44) //returns false
@@ -37,6 +73,15 @@ betweenThirtyFiftySeventy(71) //returns false
 ```
 
 5. Create a function `betweenTwentyFiftySixty` that takes in an integer, and if that integer is between 0 and 20 or between 50 and 60 it will return true or false.
+
+steps:
+declare integer parameter
+create if statement
+use conditional 0<=x<=20 or 50<=x<=60 (x<=60 && x>=50 || x<=60 && x>=50)
+	 return 'true'
+else
+	'false'
+
 ```
 betweenTwentyFiftySixty(12) //returns true
 betweenTwentyFiftySixty(44) //returns false
@@ -45,6 +90,15 @@ betweenTwentyFiftySixty(61) //returns false
 ```
 
 6. Create a function `betweenTenTwentyThirty` that takes in an  integer, and if that integer is between 0 and 10 or between 20 and 30 it will return true or false
+
+steps:
+declare integer parameter
+create if statement
+use conditional 0<=x<=10 or 20<=x<=30 (x<=10 && x>=0 || x<=30 && x>=20)
+	 return 'true'
+else
+	'false'
+
 ```
 betweenTenTwentyThirty(0) //returns true
 betweenTenTwentyThirty(9) //returns true
